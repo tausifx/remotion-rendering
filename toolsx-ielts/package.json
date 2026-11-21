@@ -1,0 +1,22 @@
+{
+  "name": "toolsx-ielts-ai-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ToolsX Bangla - IELTS Speaking AI Tools (Remotion motion graphics)",
+  "scripts": {
+    "start": "remotion studio",
+    "studio": "remotion studio",
+    "render": "remotion render src/index.ts Main out/video.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.5.0"
+  }
+}
